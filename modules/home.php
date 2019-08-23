@@ -13,6 +13,39 @@
 		</ul>
 	</div>
 </div>
+<div class="container-fluid fluidkhoahoc">
+	<div class="container nerkhoahoc">
+		<div class="gallery">
+			<h2 class="text-uppercase text-center"><?php echo getNameCategory(3);?></h2>
+			<div class="navigation menu-images">
+				<?php
+					$i = 0;
+					$loc = array();
+					$db->table = "article_menu";
+					$db->condition = "is_active = 1 AND category_id = 3";
+					$db->order = "";
+					$db->limit = "";
+					$rows1 = $db->select();
+					foreach ($rows1 as $row1) {
+						$loc[$i] = $row1['article_menu_id'];
+						$i++;
+					}
+					$loc = implode(',', $loc);
+					$db->table = "article";
+					$db->condition = "is_active = 1 AND article_menu_id IN (".$loc.")";
+					$db->order = "created_time DESC";
+					$db->limit = "4";
+					$rowst = $db->select();
+					foreach ($rowst as $rowt) {
+				?>
+					<a href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>">
+						<img src="<?php echo HOME_URL;?>/uploads/article/<?php echo $rowt['img'];?>" height="170px" width="255px" alt="Image gallery">
+					</a>
+				<?php } ?>
+			</div>
+		</div>
+	</div>
+</div>
 <script type="text/javascript">
 	var wd = window.innerWidth;
 	if(wd > 501){
