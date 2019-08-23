@@ -1,0 +1,142 @@
+<?php
+// Page
+	$lgTxt_lang                             = 'vi';
+	$lgTxt_social                           = 'Liên kết mạng xã hội';
+	$lgTxt_social_face                      = 'Liên kết Facebook';
+	$lgTxt_update                           = 'Dữ liệu đang được cập nhật...';
+	$lgTxt_updating                         = 'Dữ liệu đang được cập nhật...<br>Bạn vui lòng trở lại sau! Mời';
+	$lgTxt_page404_click                    = 'bấm vào đây';
+	$lgTxt_page404_back                     = 'để về lại';
+	$lgTxt_prupdate                         = 'Sản phẩm đang được cập nhật... Bạn vui lòng quay lại sau!';
+	$lgTxt_error_page                       = 'Trang thông báo lỗi';
+	$lgTxt_page404                          = 'Liên kết không tồn tại, vui lòng';
+	$lgTxt_page404_click                    = 'bấm';
+	$lgTxt_page404_back                     = 'để quay lại';
+	$lgTxt_detail                           = 'Xem chi tiết';
+	$lgTxt_red_more                         = 'Xem tất cả';
+	$lgTxt_post_date                        = 'Đăng ngày: ';
+	$lgTxt_post_views                       = 'Lượt xem: ';
+	$lgTxt_title_product_hot                = 'Sản phẩm tiêu biểu';
+	$lgTxt_title_others1                    = 'Các dự án khác';
+	$lgTxt_title_others2                    = 'Các tin khác';
+	$lgTxt_title_others3                    = 'Video khác';
+	$lgTxt_title_others4                    = 'Hình ảnh khác';
+	$lgTxt_title_map                        = 'Địa chỉ';
+	$lgTxt_slug_cart                        = 'gio-hang';
+	$lgTxt_title_cart                       = 'Giỏ hàng';
+	$lgTxt_menu_cart                        = 'Sản phẩm đã chọn';
+	$lgTxt_name_book                        = 'Thêm vào giỏ hàng';
+	$lgTxt_name_order                       = 'Đặt giao hàng';
+	$lgTxt_name_delivery                    = 'Đặt hàng';
+	$lgTxt_delivery_information             = 'Thông tin giao hàng';
+	$lgTxt_next_pay                         = 'Tiếp tục đến phương thức thanh toán';
+	$lgTxt_count_pay                        = 'Tạm tính';
+	$lgTxt_shipping_pay                     = 'Phí vận chuyển';
+	$lgTxt_total_pay                        = 'Tổng cộng';
+	$lgTxt_shipping_method                  = 'Phương thức vận chuyển';
+	$lgTxt_delivery                         = 'Giao hàng tận nơi';
+	$lgTxt_payment_methods                  = 'Phương thức thanh toán';
+	$lgTxt_payment_transaction              = 'Thanh toán khi giao dịch';
+	$lgTxt_bank_transfer                    = 'Chuyển khoản ngân hàng';
+	$lgTxt_complete_order                   = 'Hoàn tất đơn hàng';
+	$lgTxt_return_shipping                  = 'Quay lại thông tin giao hàng';
+	$lgTxt_cart_img                         = 'Hình ảnh';
+	$lgTxt_cart_product                     = 'Sản phẩm';
+	$lgTxt_cart_unit                        = 'Đơn giá';
+	$lgTxt_cart_number                      = 'Số lượng';
+	$lgTxt_cart_money                       = 'Thành tiền';
+	$lgTxt_cart_cancel                      = 'Hủy';
+	$lgTxt_cart_contact                     = 'Liên hệ';
+	$lgTxt_cart_total					    = '<strong>Tổng tiền</strong> (Tổng số tiền thanh toán):';
+	$lgTxt_cart_empty                       = 'Giỏ hàng rỗng...';
+	$lgTxt_cart_update                      = 'Cập nhật giỏ hàng';
+	$lgTxt_cart_continue                    = 'Tiếp tục chọn hàng';
+	$lgTxt_tab_1                            = 'Mô tả';
+	$lgTxt_tab_2                		    = 'Đặc điểm';
+	$lgTxt_tab_3                 			= 'Kích thước';
+// Menu
+	$lgTxt_menu_home                        = 'Trang chủ';
+	$lgTxt_menu_about                       = 'Giới thiệu';
+	$lgTxt_menu_contact                     = 'Liên hệ';
+	$lgTxt_slug_contact                     = 'lien-he';
+	$lgTxt_price_contact                    = 'Liên hệ';
+	$lgTxt_price_title                      = 'Giá:';
+
+	$lgTxt_title_search                     = 'Tìm kiếm...';
+	$lgTxt_input_search                     = 'Tìm kiếm..';
+	$lgTxt_slug_search                      = 'tim-kiem';
+	$lgTxt_title_news_hot                   = 'Tin tức mới nhất';
+// Contact
+	$txtContact_titleForm                   = 'Thắc mắc - Góp ý';
+	$txtContact_name		                = 'Họ và tên';
+	$txtContact_address	                    = 'Địa chỉ';
+	$txtContact_email		                = 'Email';
+	$txtContact_fone		                = 'Số điện thoại';
+	$txtContact_content	                    = 'Nội dung';
+	$txtContact_button_s	                = 'Gửi đi';
+	$txtContact_sendOk		                = 'Xin chân thành cảm ơn Quý khách đã quan tâm và sử dụng dịch vụ của chúng tôi!
+Yêu cầu của Quý khách đã gửi thành công. Chúng tôi sẽ phản hồi lại trong vòng 24h tới.
+Chân thành cảm ơn!';
+	$txtContact_sendDie	                    = 'Không thể gửi thư vì một vài lỗi từ phía máy chủ.';
+	$txtOrder_sendOk		                = 'Xin chân thành cảm ơn Quý khách đã quan tâm và sử dụng dịch vụ của chúng tôi!
+Yêu cầu của Quý khách đã gửi thành công. Chúng tôi sẽ phản hồi lại trong vòng 24h tới.
+Chân thành cảm ơn!';
+    $txtEnter_field		                    = 'Trường dữ liệu bắt buộc.';
+    $txtEnter_email		                    = 'Địa chỉ Email không hợp lệ.';
+    $txtEnter_tell		                    = 'Số điện thoại không hợp lệ.';
+	$txtEnter_number		                = 'Số không hợp lệ.';
+	$lgTxt_register_title_mail              = 'NHẬN TIN KHUYẾN MÃI';
+	$lgTxt_register_mail_input              = 'Nhập địa chỉ email...';
+	$lgTxt_register_mail_submit             = 'Đăng ký';
+	$txtEmail_sendOk		                = 'Yêu cầu của bạn đã được xử lý thành công.';
+	$txtEmail_sendDie	                    = 'Không thể thực hiện vì một vài lỗi từ phía máy chủ.';
+
+	$lh 	= 'LIÊN HỆ';
+	$chao 	= 'Chào';
+	$ttkh 	= 'THÔNG TIN LIÊN HỆ CỦA QUÝ KHÁCH:';
+	$ctcon 	= 'Chân thành cảm ơn!';
+	$ctco 	= 'Xin chân thành cảm ơn Quý khách đã quan tâm và sử dụng dịch vụ của chúng tôi!
+Yêu cầu của Quý khách đã gửi thành công. Chúng tôi sẽ phản hồi lại trong vòng 24h tới.';
+	$hvt 	= 'Họ và tên';
+	$dc 	= 'Địa chỉ';
+	$sdt 	= 'Số điện thoại';
+	$ndlh 	= 'Nội dung liên hệ';
+	$ng 	= 'Ngày gửi liên hệ';
+	$hkt 	= 'Đây là hộp thư tự động. Sau thời gian trên nếu quý khách chưa nhân được phản hồi từ nhân viên của chúng tôi, rất có thể đã gặp sự cố nhỏ nào đó vì vậy Quý khách có thể liên hệ trực tiếp chúng tôi để nhận được những thông tin nhanh nhất.';
+	$gem 	= 'Đã đăng ký email thành công';
+	$vln 	= 'Vui lòng nhập Email';
+
+
+	// nội dung
+	$gd 				                    = 'Gửi đi';
+	$kqtk 				                    = 'Kết quả tìm kiếm';
+	$dcem									= 'Địa chỉ email không hợp lệ';
+	$hoten									= 'Nhập họ tên';
+	$sodienthoai							= 'Nhập số điện thoại';
+	$diachi									= 'Nhập địa chỉ';
+	$noidung								= 'Nhập nội dung';
+	$rtsmf 									= 'Rất tiếc, Goog Math không tìm thấy kết quả nào phù hợp với từ khóa';
+	$dtdkq 									= 'Để tìm được kết quả chính xác hơn, bạn vui lòng:';
+	$ktlct 									= 'Kiểm tra lỗi chính tả của từ khóa đã nhập';
+	$tlbtkk									= 'Thử lại bằng từ khóa khác';
+	$tktq									= 'Thử lại bằng những từ khóa tổng quát hơn';
+	$tkng									= 'Thử lại bằng những từ khóa ngắn gọn hơn';
+
+
+	$hvteb									= 'Họ và tên em bé';
+	$ntns									= 'Ngày tháng năm sinh';
+	$kvss									= 'khu vực sinh sống';
+	$sdtph									= 'Số điện thoại phụ huynh';
+	$dk								    	= 'Đăng ký';
+	$dkh							    	= 'Đăng ký học';
+
+	$gtvgm 							    	= 'GIỚI THIỆU VỀ GOOD MATH';
+	$xt 							    	= 'Xem thêm';
+	$xtc 							    	= 'Xem tất cả';
+	$tcttfb							    	= 'Tìm chúng tôi trên Facebook';
+	$dkkh							    	= 'Đăng ký khóa học';
+	$khk							    	= 'Khóa học khác';
+	$ttk							    	= 'Tin tức khác';
+	$blfb							    	= 'Bình luận Facebook';
+	$lk							    	    = 'Liên kết';
+	$ttttdgm					    	    = 'Trung tâm toán tư duy Good Math';

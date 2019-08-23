@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="checkbox-pen-outline">
+    <path d="M3.86282 1.7154L2.34739 0.230468C2.19092 0.0769362 1.98518 0 1.7798 0C1.57406 0 1.36833 0.0765957 1.2122 0.230128L0 1.41617L2.65061 4.01226L3.86282 2.82655C4.1761 2.51949 4.1761 2.02145 3.86282 1.7154Z" transform="translate(12.84229 0.003744681)" id="Path" fill="#FFFFFF" stroke="none" />
+    <path d="M0 7.15098L2.65061 9.7474L9.95194 2.59643L7.30133 0L0 7.15098Z" transform="translate(4.973714 1.97583)" id="Path" fill="#FFFFFF" stroke="none" />
+    <path d="M0.565857 0L0 3.14996L3.21647 2.59609L0.565857 0Z" transform="translate(3.835755 9.682042)" id="Path" fill="#FFFFFF" stroke="none" />
+    <path d="M11.729 11.5081L1.73504 11.5081L1.73504 1.70213L8.78796 1.70213L10.5261 0L1.122 0C0.504796 0 0 0.495319 0 1.10094L0 12.1096C0 12.7149 0.504796 13.2102 1.122 13.2102L12.3417 13.2102C12.9582 13.2102 13.463 12.7149 13.463 12.1096L13.463 4.23864L11.7283 5.93804L11.729 11.5081L11.729 11.5081Z" transform="translate(0 2.727149)" id="Path" fill="#FFFFFF" stroke="none" />
+  </g>
+</svg>

@@ -1,0 +1,151 @@
+<?php
+// Page
+	$lgTxt_lang                           	= 'en';
+	$lgTxt_social                         	= 'Liên kết mạng xã hội';
+	$lgTxt_social_face                    	= 'Liên kết Facebook';
+	$lgTxt_update                         	= 'The data are in the process of renovation ... Please come back later!';
+	$lgTxt_updating                         = 'Data are being updated...<br>Please come back later! Invite';
+	$lgTxt_page404_click                    = 'click here';
+	$lgTxt_page404_back                     = 'to return';
+    $lgTxt_error_page                     	= 'Error page';
+    $lgTxt_page404                        	= 'Link does not exist, please';
+    $lgTxt_page404_click                  	= 'click';
+    $lgTxt_page404_back                   	= 'to return';
+	$lgTxt_article_plus                   	= 'Other article:';
+	$lgTxt_article_other                  	= 'Same category:';
+	$lgTxt_service_other                  	= 'Other services:';
+	$lgTxt_activities_other               	= 'Other sectors:';
+	$lgTxt_news_other                     	= 'Other news:';
+	$lgTxt_product_other                  	= 'All Products';
+	$lgTxt_product_hot                    	= 'Typical products';
+	$lgTxt_title_news_hot                 	= 'Typical News';
+	$lgTxt_title_product_hot                = 'Featured products';
+	$lgTxt_title_others4                    = 'Related Products';
+	$lgTxt_detail                         	= 'View detail';
+	$lgTxt_view_all                       	= 'View all';
+	$lgTxt_title_map                        = 'Maps';
+    $lgTxt_tab_1                 		  	= 'Comment';
+    $lgTxt_tab_2                 			= 'Characteristics';
+    $lgTxt_tab_3                 			= 'Size';
+// Menu
+	$lgTxt_menu_home                      	= 'Home';
+	$lgTxt_menu_about                       = 'ABOUT US';
+	$lgTxt_menu_contact                   	= 'Contact';
+	$lgTxt_slug_contact                   	= 'contact';
+	$lgTxt_menu_search                    	= 'Quick search';
+	$lgTxt_slug_search                    	= 'search';
+	$lgTxt_title_news                     	= 'News - Events';
+	$lgTxt_price_contact                    = 'Contact';
+	$lgTxt_price_title                      = 'Price: ';
+	$lgTxt_title_search                     = 'Search';
+	$lgTxt_input_search                     = 'Tìm kiếm nhanh...';
+	$lgTxt_slug_search                      = 'tim-kiem';
+	$lgTxt_slug_cart                      	= 'gio-hang';
+	$lgTxt_title_cart                     	= 'Cart';
+	$lgTxt_name_book                      	= 'Add to cart';
+	$lgTxt_name_order                     	= 'Shopping cart';
+	$lgTxt_name_delivery                  	= 'Delivery';
+	$lgTxt_menu_cart                      	= 'Shopping cart';
+	$lgTxt_delivery_information           	= 'Delivery information';
+	$lgTxt_next_pay                       	= 'Continue to the payment method';
+	$lgTxt_count_pay                      	= 'Provisional';
+	$lgTxt_shipping_pay                   	= 'Transport fee';
+	$lgTxt_total_pay                      	= 'Total';
+	$lgTxt_shipping_method                	= 'Shipping method';
+	$lgTxt_delivery                       	= 'Delivery';
+	$lgTxt_payment_methods                	= 'Payment methods';
+	$lgTxt_payment_transaction            	= 'Payment when transaction';
+	$lgTxt_bank_transfer                  	= 'Bank transfer';
+	$lgTxt_complete_order                 	= 'Complete order';
+	$lgTxt_return_shipping                	= 'Return shipping information';
+	$lgTxt_cart_img                      	= 'Picture';
+	$lgTxt_cart_product                  	= 'Product';
+	$lgTxt_cart_unit                     	= 'Unit price';
+	$lgTxt_cart_number                   	= 'Number';
+	$lgTxt_cart_money                    	= 'Money';
+	$lgTxt_cart_cancel                   	= 'Delete';
+	$lgTxt_cart_contact                  	= 'Contact';
+	$lgTxt_cart_total                    	= 'Total amount:';
+	$lgTxt_cart_empty                    	= 'Cart is empty';
+	$lgTxt_cart_update                   	= 'Update';
+	$lgTxt_cart_continue                 	= 'Continue';
+	$lgTxt_cart_continue                 	= 'Continue';
+// Contact
+	$txtContact_titleForm   				= 'Inquiries - Feedback';
+	$txtContact_name						= 'Full name';
+	$txtContact_address	    				= 'Address';
+	$txtContact_email						= 'Email';
+	$txtContact_fone						= 'Tel';
+	$txtContact_content	    				= 'Request';
+	$txtContact_button_s					= 'Submit';
+	$txtContact_sendOk						= 'Your request has been sent successfully, we will promptly contact you back.';
+	$txtContact_sendDie	    				= 'Unable to send mail for a few errors from the server side.';
+	$txtOrder_sendOk						= 'Orders friend has been sent successfully, we will quickly get back to you as soon as possible. Please wait!';
+	$lgTxt_register_title_mail   			= 'Latest promotion';
+	$txtEnter_field		    				= 'This field is required to enter.';
+	$lgTxt_register_mail_input              = 'Enter email address...';
+	$lgTxt_register_mail_submit             = 'Send  ';
+	$txtEnter_email		    				= 'Invalid E-mail address.';
+	$txtEnter_tell		    				= 'Invalid phone number.';
+	$txtEnter_number						= 'Invalid number.';
+	$lgTxt_register_title_mail              = 'Receive Promotion Information';
+	$lgTxt_register_mail_input              = 'Your Email Here...';
+	$lgTxt_register_mail_submit             = 'Register';
+	$txtEmail_sendOk		                = 'Its done <3';
+	$txtEmail_sendDie	                    = 'Something go wrong.';
+
+	$lh 	= 'CONTACT';
+	$chao 	= 'Dear';
+	$ttkh 	= 'CONTACT INFORMATION OF YOU:';
+	$ctcon 	= 'Thank you!';
+	$ctco 	= 'Sincerely thank you for your interest and use our service!
+Your request has been sent successfully. We will respond within 24 hours.';
+	$hvt 	= 'Full name';
+	$dc 	= 'Address';
+	$sdt 	= 'Phone number';
+	$ndlh 	= 'Content';
+	$ng 	= 'Date of contact';
+	$hkt 	= 'This is an automated mailbox. After the above time, if you have not received feedback from our staff, you may have encountered some minor problems so you can contact us directly for the fastest information.';
+	$gem 	= 'Successfully registered email';
+	$vln 	= 'Please enter Email';
+
+
+
+	// nội dung
+	$gd 				                    = 'Send';
+	$kqtk 				                    = 'Search Results';
+	$dcem									= 'Email address is not valid.';
+	$hoten									= 'Full name';
+	$sodienthoai							= 'Phone';
+	$diachi									= 'Address';
+	$noidung								= 'Content';
+	$rtsmf 									= 'Sorry, Good Math found no results matching the keyword';
+	$dtdkq 									= 'To find more accurate results, please:';
+	$ktlct 									= 'Check the spelling of the entered keyword';
+	$tlbtkk									= 'Try again with another keyword';
+	$tktq									= 'Try again with more general keywords';
+	$tkng									= 'Try again with shorter keywords';
+
+
+
+
+	$hvteb									= 'Full name';
+	$ntns									= 'Birthday';
+	$kvss									= 'Living area';
+	$sdtph									= 'Parent phone number';
+	$dk								    	= 'Register';
+	$dkh							    	= 'Register to study';
+
+	$gtvgm 							    	= 'ABOUT GOOD MATH';
+	$xt 							    	= 'See more';
+	$xtc 							    	= 'See all';
+	$tcttfb							    	= 'Find us on Facebook';
+	$dkkh							    	= 'Register the course';
+	$khk							    	= 'Other courses';
+	$ttk							    	= 'Other news';
+	$blfb							    	= 'Facebook comment';
+	$lk							    	    = 'Link';
+	$ttttdgm					    	    = 'Good Math thinking center';
+
+
+
