@@ -58,7 +58,7 @@ echo getConstant('script_body');
 		}
     ?>
 	<!-- .container -->
-	<section class="" style="position: relative;">
+	<section class="body-section" style="position: relative;">
 		<?php
 			include(_F_MODULES . DS .  str_replace('-','_',$slug_cat) . ".php");
 		?>
@@ -76,12 +76,6 @@ echo getConstant('script_body');
 <div id="_loading_popup"></div>
 <?php
 echo getConstant('script_bottom');
-// $active = 0;
-// $active = getPage('popup', 'is_active') + 0;
-// if($active==1 && !isset($_SESSION['popup'])) {
-// 	require_once("popup" . DS . "popup.php");
-// 	$_SESSION['popup'] = 'OK';
-// }
 ?>
 <script type="text/javascript">
 	var lastScrollTop = 0;
@@ -106,18 +100,6 @@ echo getConstant('script_bottom');
 	});
 </script>
 <?php if($slug_cat!='home'){?>
-	<!-- <script type="text/javascript">
-		$(document).ready(function(){
-			var w = window.innerWidth;
-			if(w>1200){
-				$(document).ready(function(){
-					var topPos = 200;
-					var time    =  1000;
-					$('html, body').animate({scrollTop:topPos},time);
-				})
-			}
-		})
-	</script> -->
 	<script type="text/javascript">
 		$(function(){$(window).scroll
 		(function(){

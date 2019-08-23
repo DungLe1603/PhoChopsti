@@ -2900,6 +2900,16 @@ img {
 }
 
 /* Style */
+h1,h2,h3,h4,h5,p,span {
+    color: #fff !important;
+}
+.body-section {
+    background: url('../images/bodybackground.png');
+}
+.header {
+    margin: 30px 0;
+}
+
 .inputnhap {
     font-family:Poppins-Regular;
     font-size:14px;
@@ -2913,8 +2923,8 @@ img {
     padding: 8px 16px;
 }
 .header {
-    position: fixed;
-    z-index: 1;
+    position: absolute;
+    z-index: 99;
     padding: 0 60px;
 }
 .footer-info {
@@ -2922,7 +2932,7 @@ img {
     padding: 30px 90px;
     margin-right: -30px;
     color: #fff;
-    height: 400px;
+    height: 600px;
 }
 .ft-text {    
     font-family:Poppins-Light;
@@ -2943,4 +2953,11 @@ img {
 }
 .info-detail {
     padding: 20px 0;
+}
+.home-info {
+    background: #006837;
+}
+.welcome {
+    margin: 90px auto;
+    padding: 30px 20px;
 }

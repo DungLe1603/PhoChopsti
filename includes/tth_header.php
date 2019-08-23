@@ -28,7 +28,7 @@ $bien = $url3 - 1;
                                     $db->table = "category";
                                     $db->condition = "`is_active` = 1";
                                     $db->order = "  sort_hide ASC";
-                                    $db->limit = "4";
+                                    $db->limit = "5";
                                     $rows = $db->select();
                                     $count = 0;
                                     foreach($rows as $row){

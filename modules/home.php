@@ -3,22 +3,15 @@
 	$date = new DateClass();
 	$stringObj = new String();
 ?>
-<div class="container nergioithome">
+<div class="container">
 	<div class="tg_gthome">
-		<h1><?php echo $gtvgm;?></h1>
+		<h2 class="text-uppercase text-center">Our pho losophy</h2>
 		<ul>
 			<li><img src="<?php echo HOME_URL;?>/images/sao.svg"></li>
 			<li><img src="<?php echo HOME_URL;?>/images/sao.svg"></li>
 			<li><img src="<?php echo HOME_URL;?>/images/sao.svg"></li>
 		</ul>
 	</div>
-</div>
-<div class="container-fluid fluidkhoahoc">
-</div>
-<div class="container nernewhome">
-</div>
-<div class="divborderngan"></div>
-<div class="container nerslykien">
 </div>
 <script type="text/javascript">
 	var wd = window.innerWidth;
