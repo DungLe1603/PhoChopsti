@@ -7,13 +7,13 @@ define( 'TTH_SYSTEM', true );
 $url = isset($_GET['url']) ? $_GET['url'] : 'home';
 $path = array();
 $path = explode('/',$url);
-if($path[0]=='en') {
+if($path[0]=='vi') {
 	$_SESSION["language"] = 'en';
-} elseif($path[0]=='vi') {
+} elseif($path[0]=='en') {
 	$_SESSION["language"] = 'vi';
 } else {
-	$_SESSION["language"] = 'vi';
-	array_unshift($path, 'vi');
+	$_SESSION["language"] = 'en';
+	array_unshift($path, 'en');
 }
 //----------------------------------------------------------------------------------------------------------------------
 require_once(str_replace( DIRECTORY_SEPARATOR, '/', dirname( __file__ ) ) . '/define.php');
@@ -34,7 +34,6 @@ include_once(_F_INCLUDES . DS . "_tth_online_daily.php");
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo TTH_LANGUAGE;?>">
-
 
 <head>
 <?php
