@@ -3,14 +3,31 @@
 	$date = new DateClass();
 	$stringObj = new String();
 ?>
-<div class="container">
-	<div class="tg_gthome">
-		<h2 class="text-uppercase text-center">Our pho losophy</h2>
-		<ul>
-			<li><img src="<?php echo HOME_URL;?>/images/sao.svg"></li>
-			<li><img src="<?php echo HOME_URL;?>/images/sao.svg"></li>
-			<li><img src="<?php echo HOME_URL;?>/images/sao.svg"></li>
-		</ul>
+<div class="container-fluid">
+	<div class="container">
+		<div class="home-news">
+			<h2 class="home-title text-uppercase text-center"><?php echo getNameArticlemenu(8);?></h2>
+			<div class="row">
+				<?php
+					$i = 0;
+					$loc = array();
+					$db->table = "article";
+					$db->condition = "is_active = 1 AND article_menu_id = 8";
+					$db->order = "";
+					$db->limit = "3";
+					$rows1 = $db->select();
+					foreach ($rows1 as $rowt) {
+				?>					
+					<div class="col-xs-4 col-sm-4 col-md-4">
+						<div class="pho-losphy-item">
+							<img src="<?php echo HOME_URL;?>/uploads/article/<?php echo $rowt['img'];?>" height="70px" width="70px" alt="Image">
+							<p><?php echo $rowt['name'];?></p>
+							<p><?php echo $rowt['content'];?></p>
+						</div>
+					</div>
+				<?php } ?>
+			</div>
+		</div>
 	</div>
 </div>
 <hr class="home-line">

@@ -3045,3 +3045,8 @@ h1,h2,h3,h4,h5,p,span {
     color: #fff;
     border-radius: 5px;
 }
+.pho-losphy-item {    
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
