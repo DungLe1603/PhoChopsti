@@ -140,3 +140,4 @@ Yêu cầu của Quý khách đã gửi thành công. Chúng tôi sẽ phản h�
 	$blfb							    	= 'Bình luận Facebook';
 	$lk							    	    = 'Liên kết';
 	$ttttdgm					    	    = 'Trung tâm toán tư duy Good Math';
+	$view									= 'Xem thêm';

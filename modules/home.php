@@ -13,10 +13,63 @@
 		</ul>
 	</div>
 </div>
-<div class="container-fluid fluidkhoahoc">
-	<div class="container nerkhoahoc">
-		<div class="gallery">
-			<h2 class="text-uppercase text-center"><?php echo getNameCategory(3);?></h2>
+<div class="container-fluid">
+	<div class="container">
+		<div class="home-news">
+			<h2 class="home-title text-uppercase text-center"><?php echo getNameCategory(4);?></h2>
+			<div class="row">
+				<?php
+					$i = 0;
+					$loc = array();
+					$db->table = "article_menu";
+					$db->condition = "is_active = 1 AND category_id = 4";
+					$db->order = "";
+					$db->limit = "";
+					$rows1 = $db->select();
+					foreach ($rows1 as $row1) {
+						$loc[$i] = $row1['article_menu_id'];
+						$i++;
+					}
+					$loc = implode(',', $loc);
+					$db->table = "article";
+					$db->condition = "is_active = 1 AND article_menu_id IN (".$loc.")";
+					$db->order = "created_time DESC";
+					$db->limit = "2";
+					$rowst = $db->select();
+					foreach ($rowst as $rowt) {
+				?>
+					<div class="col-xs-6 col-sm-6 col-md-6">
+						<div class="news-item row">
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<div class="trngthnam">
+									<p>
+										<span class="ngaytin"><?php echo date('d', $rowt['created_time']);?></span><br />
+										<span class="thangtin"><?php echo date('F', $rowt['created_time']);?></span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-9 col-sm-9 col-xs-9">
+								<div class="content">
+									<a class="news-name" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>"><?php echo $rowt['name'];?></a>
+									<div class="news-content">
+										<p><?php echo mysubstr( $rowt['content'], 200)?></p>
+									</div>
+									<div class="view-more">
+										<a class="full-right" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>"><span class="more-text"><?php echo $view; ?></span><i class="more-icon fas fa-chevron-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<?php } ?>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="container">
+		<div class="home-gallery">
+			<h2 class="home-title text-uppercase text-center"><?php echo getNameCategory(3);?></h2>
 			<div class="navigation menu-images">
 				<?php
 					$i = 0;
@@ -38,7 +91,7 @@
 					$rowst = $db->select();
 					foreach ($rowst as $rowt) {
 				?>
-					<a href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>">
+					<a class="home-gallery-item" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>">
 						<img src="<?php echo HOME_URL;?>/uploads/article/<?php echo $rowt['img'];?>" height="170px" width="255px" alt="Image gallery">
 					</a>
 				<?php } ?>

@@ -146,6 +146,7 @@ Your request has been sent successfully. We will respond within 24 hours.';
 	$blfb							    	= 'Facebook comment';
 	$lk							    	    = 'Link';
 	$ttttdgm					    	    = 'Good Math thinking center';
+	$view									= 'View more';
 
 
 
