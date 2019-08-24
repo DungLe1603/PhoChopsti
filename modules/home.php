@@ -13,6 +13,38 @@
 		</ul>
 	</div>
 </div>
+<hr class="home-line">
+<div class="container-fluid">
+	<div class="container">
+		<div class="home-news">
+			<h2 class="home-title text-uppercase text-center"><?php echo getNameArticlemenu(7);?></h2>
+			<div class="navigation menu-images">
+				<?php
+					$i = 0;
+					$loc = array();
+					$db->table = "article";
+					$db->condition = "is_active = 1 AND article_menu_id = 7";
+					$db->order = "";
+					$db->limit = "";
+					$rows1 = $db->select();
+					foreach ($rows1 as $rowt) {
+				?>
+					<a class="home-gallery-item" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>">
+						<img src="<?php echo HOME_URL;?>/uploads/article/<?php echo $rowt['img'];?>" height="170px" width="255px" alt="Image gallery">
+					</a>
+					<!-- <div class="feature-item">						
+						<a class="home-gallery-item" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>">
+							<img src="<?php echo HOME_URL;?>/uploads/article/<?php echo $rowt['img'];?>" height="170px" width="255px" alt="Image gallery">
+						</a>
+						<p><?php echo $rowt['name'];?></p>
+						<p><?php echo $rowt['img_note'];?></p>
+					</div> -->
+				<?php } ?>
+			</div>
+		</div>
+	</div>
+</div>
+<hr class="home-line">
 <div class="container-fluid">
 	<div class="container">
 		<div class="home-news">
@@ -66,6 +98,7 @@
 		</div>
 	</div>
 </div>
+<hr class="home-line">
 <div class="container-fluid">
 	<div class="container">
 		<div class="home-gallery">
