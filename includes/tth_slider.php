@@ -3,7 +3,7 @@ if (!defined('TTH_SYSTEM')) { die('Please stop!'); }
 //-------------
 $stringObj = new String();
 ?>
-<div class="row home-info">
+<div class="row bg-color">
     <div class="col-xs-8 col-sm-8 col-md-8">
         <div id="wowslider-container1">
             <div class="ws_images">
