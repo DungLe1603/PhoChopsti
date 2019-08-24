@@ -2899,12 +2899,18 @@ img {
   content: none;
 }
 
-/* Style */
+/* Style  homepage pho chopsti*/
 h1,h2,h3,h4,h5,p,span {
     color: #fff !important;
 }
 .mt-100 {
     padding-top: 150px; 
+}
+.bt-link:hover {
+    color: #fff;
+    background: #006837;
+    border: 1px #006837 solid;
+    border-radius: 5px;
 }
 .body-section {
     background: url('../images/bodybackground.png');
@@ -3023,4 +3029,19 @@ h1,h2,h3,h4,h5,p,span {
 .home-line {
     width: 50%;
     margin: 0 auto;
+}
+.feature-description {
+    margin: 10px 0;
+}
+.view-all {
+    text-align: center;
+    margin: 30px auto;
+}
+.view-all-bt {
+    font-family:Poppins-Regular;
+    font-size:15px;
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
 }

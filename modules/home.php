@@ -18,28 +18,30 @@
 	<div class="container">
 		<div class="home-news">
 			<h2 class="home-title text-uppercase text-center"><?php echo getNameArticlemenu(7);?></h2>
-			<div class="navigation menu-images">
+			<div class="row">
 				<?php
 					$i = 0;
 					$loc = array();
 					$db->table = "article";
 					$db->condition = "is_active = 1 AND article_menu_id = 7";
-					$db->order = "";
-					$db->limit = "";
+					$db->order = "created_time DESC";
+					$db->limit = "3";
 					$rows1 = $db->select();
 					foreach ($rows1 as $rowt) {
-				?>
-					<a class="home-gallery-item" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>">
-						<img src="<?php echo HOME_URL;?>/uploads/article/<?php echo $rowt['img'];?>" height="170px" width="255px" alt="Image gallery">
-					</a>
-					<!-- <div class="feature-item">						
-						<a class="home-gallery-item" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>">
-							<img src="<?php echo HOME_URL;?>/uploads/article/<?php echo $rowt['img'];?>" height="170px" width="255px" alt="Image gallery">
-						</a>
-						<p><?php echo $rowt['name'];?></p>
-						<p><?php echo $rowt['img_note'];?></p>
-					</div> -->
+				?>					
+					<div class="col-xs-4 col-sm-4 col-md-4">
+						<div class="feature-item">						
+							<a class="home-gallery-item" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>">
+								<img src="<?php echo HOME_URL;?>/uploads/article/<?php echo $rowt['img'];?>" height="250px" width="355px" alt="Image gallery">
+							</a>
+							<p class="feature-description"><?php echo $rowt['name'];?></p>
+							<p><?php echo $rowt['img_note'];?></p>
+						</div>
+					</div>
 				<?php } ?>
+			</div>
+			<div class="view-all">
+				<a class="view-all-bt bt-link" href="<?php echo HOME_URL_LANG;?>/<?php echo getNameMenuArt(7);?>">View all menu</a>
 			</div>
 		</div>
 	</div>
