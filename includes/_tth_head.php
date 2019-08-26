@@ -52,3 +52,4 @@ if (!defined('TTH_SYSTEM')) { die('Please stop!'); }
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <link rel="stylesheet" type="text/css" href="<?php echo HOME_URL;?>/js/jquery.calendar/jquery.datetimepicker.css"/>
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">

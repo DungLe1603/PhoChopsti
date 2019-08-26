@@ -2966,7 +2966,7 @@ h1,h2,h3,h4,h5,p,span {
 .info-detail {
     padding: 20px 0;
 }
-.home-info {
+.bg-color {
     background: #006837;
 }
 .welcome {
@@ -3049,4 +3049,24 @@ h1,h2,h3,h4,h5,p,span {
     text-align: center;
     margin: 30px;
     padding: 10px;
+}
+
+/* Style for about page of pho chopsti*/
+.slide-page {
+    height: 500px;
+}
+.intro-img {
+    width: 550px;
+}
+.intro-item-title {
+    font-family:Poppins-Medium;
+    font-size:18px;
+    padding: 20px 0;
+}
+.intro-item-centent {
+    font-family:Poppins-Light;
+    font-size:14px;
+}
+.intro-item {
+    margin-bottom: 60px;
 }
