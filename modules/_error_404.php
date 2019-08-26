@@ -25,7 +25,6 @@ $breadcrumb_category = '<a class="error" href="' . HOME_URL_LANG . '" title="' .
 		margin-top: 20px;
 	}
 </style>
-<section class="mt-100">   hihi</section>
 <section class="container">
 	<div class="col-md-12 col-sm-12 col-xs-12">
 		<div class="brow_loi" style="background-color: #FAAE17;">
