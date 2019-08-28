@@ -7,7 +7,7 @@ $stringObj = new String();
     <div class="col-xs-8 col-sm-8 col-md-8">
         <?php
             $db->table = "category";
-            $db->condition = "category_id = 1";
+            $db->condition = "category_id = 2";
             $data = $db->select();
             foreach ($data as $data) {
         ?>                     
