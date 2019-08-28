@@ -15,7 +15,7 @@ if (!defined('TTH_SYSTEM')) { die('Please stop!'); }
             <div class=intro-item>
                 <?php 
                 $db->table = "article";
-                $db->condition = "is_active = 1 AND article_id = 15";
+                $db->condition = "is_active = 1 AND article_id = 1329";
                 $db->order = "created_time DESC";
                 $db->limit = "1";
                 $rop = $db->select();
@@ -28,7 +28,7 @@ if (!defined('TTH_SYSTEM')) { die('Please stop!'); }
             <div class=intro-item>
                 <?php 
                 $db->table = "article";
-                $db->condition = "is_active = 1 AND article_id = 16";
+                $db->condition = "is_active = 1 AND article_id = 1330";
                 $db->order = "created_time DESC";
                 $db->limit = "1";
                 $rop = $db->select();
@@ -55,7 +55,7 @@ if (!defined('TTH_SYSTEM')) { die('Please stop!'); }
             <div class=intro-item>
                 <?php 
                 $db->table = "article";
-                $db->condition = "is_active = 1 AND article_id = 17";
+                $db->condition = "is_active = 1 AND article_id = 1331";
                 $db->order = "created_time DESC";
                 $db->limit = "1";
                 $rop = $db->select();
