@@ -8,32 +8,7 @@ $stringObj = new String();
 ?>
 <div class="container-fluid">
 	<div class="container">
-		<div class="home-gallery">		
-			<div class="navigation menu-images">
-				<nav class="navigation" role="navigation">
-					<ul class="menucll">
-						<li style="visibility: visible; animation-name: flipInX;margin: 0;" class="<?php if($slug_cat=='home') echo 'active'; ?>">
-							<a style="overflow: initial;" href="<?php echo HOME_URL_LANG; ?>" title="">
-								<span class="text-uppercase">All</span>
-							</a>
-						</li>
-					<?php
-						$i = 0;
-						$loc = array();
-						$db->table = "article_menu";
-						$db->condition = "is_active = 1 AND category_id = 3";
-						$db->order = "";
-						$db->limit = "";
-						$rows1 = $db->select();
-						foreach ($rows1 as $row) {
-					?>
-						<li>
-							<a class="" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>"><?php echo $rowt['name'];?>"</a>
-						</li>
-					<?php } ?>
-					</ul>
-				</nav>
-			</div>
+		<div class="home-gallery">
 			<div class="navigation menu-images">
 				<?php
 					$i = 0;

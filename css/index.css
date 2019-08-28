@@ -2906,6 +2906,15 @@ h1,h2,h3,h4,h5,p,span {
 .mt-100 {
     padding-top: 150px; 
 }
+.div-equal { /* use for ul>li 2 sides evenly */
+    width: 1%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.bt-link {
+    color: #fff;
+    border: 1px solid transparent;
+}
 .bt-link:hover {
     color: #fff;
     background: #006837;
@@ -3069,4 +3078,9 @@ h1,h2,h3,h4,h5,p,span {
 }
 .intro-item {
     margin-bottom: 60px;
+}
+
+/* Style for menu */
+.nav-menu {
+    display: inline-block;
 }
