@@ -9,6 +9,7 @@ $stringObj = new String();
 <div class="container-fluid">
 	<div class="container">
 		<div class="home-gallery">
+			<h3 class="home-title text-uppercase my-50"><?php echo getNameCategory(3);?></h3>
 			<div class="navigation menu-images">
 				<?php
 					$i = 0;

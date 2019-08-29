@@ -3,10 +3,11 @@ if (!defined('TTH_SYSTEM')) { die('Please stop!'); }
 ?>
 <div class="container nerabout">
 	<div class="menu-images">
+		<h3 class="home-title text-uppercase"><?php echo getNameCategory(2);?></h3>
 		<nav class="">
-			<ul class="">
-				<li style="visibility: visible; animation-name: flipInX;margin: 0;" class="<?php if($slug_cat=='menu-all') echo 'active'; ?>">
-					<a class="bt-link" style="overflow: initial;" href="<?php echo HOME_URL_LANG; ?>/<?php echo $rowt['slug'];?>" title="">
+			<ul class="my-50">
+				<li class="block-inline">
+					<a class="view-all-bt bt-link" style="overflow: initial;" href="<?php echo HOME_URL_LANG; ?>/<?php echo $rowt['slug'];?>" title="">
 						<span class="text-uppercase">All</span>
 					</a>
 				</li>
@@ -20,8 +21,8 @@ if (!defined('TTH_SYSTEM')) { die('Please stop!'); }
 				$rows1 = $db->select();
 				foreach ($rows1 as $row) {
 			?>
-				<li>
-					<a class="bt-link" href="<?php echo HOME_URL_LANG;?>/<?php echo $row['slug'];?>"><?php echo $row['name'];?></a>
+				<li class="block-inline">
+					<a class="view-all-bt bt-link" href="<?php echo HOME_URL_LANG;?>/<?php echo $row['slug'];?>"><?php echo $row['name'];?></a>
 				</li>
 			<?php } ?>
 			</ul>

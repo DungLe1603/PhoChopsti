@@ -10,6 +10,7 @@ if (!defined('TTH_SYSTEM')) { die('Please stop!'); }
     foreach ($rown as $keyn){
 ?>
 <div class="container nerabout padmar" id="<?php echo $keyn['slug'];?>">
+    <h3 class="home-title text-uppercase"><?php echo getNameCategory(1);?></h3>
     <div class="row">
         <div class="col-sx-6 col-sm-6 col-md-6">            
             <div class=intro-item>
