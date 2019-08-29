@@ -50,7 +50,7 @@ if($id_menu > 0) {
 //-------------------------------------------------------------------------------
 if ($id_article > 0){
 	$id = $id_article;
-	include(_F_TEMPLATES . DS . "show_article_khoa_hoc.php");
+	include(_F_TEMPLATES . DS . "show_article_menu.php");
 } else if($id_menu <= 0) {
 	$loc = array();
 	$db->table = "article_menu";
@@ -85,7 +85,7 @@ if ($id_article > 0){
 		$db->limit = $start.','.$per_page;
 		$rows = $db->select();
 		$i = 0; 
-			include(_F_TEMPLATES . DS . "show_list_article_khoa_hoc.php");
+			include(_F_TEMPLATES . DS . "show_list_article_menu.php");
 			showPageNavigation($page, $total_pages,'/'.$slug_cat.'?p=');
 	}
 	else if ($total==1) {
@@ -93,7 +93,7 @@ if ($id_article > 0){
 		foreach($rows as $row) {
 			$id = $row['article_id'];
 		}
-		include(_F_TEMPLATES . DS . "show_article_khoa_hoc.php");
+		include(_F_TEMPLATES . DS . "show_article_menu.php");
 	}
 	else include(_F_MODULES . DS . "_updating.php");
 
@@ -152,7 +152,7 @@ if ($id_article > 0){
 		$db->limit = $start.','.$per_page;
 		$rows = $db->select();
 		$i = 0;
-			include(_F_TEMPLATES . DS . "show_list_article_khoa_hoc.php");
+			include(_F_TEMPLATES . DS . "show_list_article_menu.php");
 			showPageNavigation($page, $total_pages,'/'.$slug_cat.'/'.$slug_submenu.'?p=');
 	}
 	else if ($total==1) {
@@ -160,7 +160,7 @@ if ($id_article > 0){
 		foreach($rows as $row) {
 			$id = $row['article_id'];
 		}
-		include(_F_TEMPLATES . DS . "show_article_khoa_hoc.php");
+		include(_F_TEMPLATES . DS . "show_article_menu.php");
 	}
 	else include(_F_MODULES . DS . "_updating.php");
 }
