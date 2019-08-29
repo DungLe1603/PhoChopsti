@@ -141,7 +141,7 @@
 					$rowst = $db->select();
 					foreach ($rowst as $rowt) {
 				?>
-					<a class="home-gallery-item" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>">
+					<a class="div-equal" href="<?php echo HOME_URL_LANG;?>/<?php echo $rowt['slug'];?>">
 						<img src="<?php echo HOME_URL;?>/uploads/article/<?php echo $rowt['img'];?>" height="170px" width="255px" alt="Image gallery">
 					</a>
 				<?php } ?>
