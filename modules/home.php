@@ -37,8 +37,6 @@
 			<h2 class="home-title text-uppercase text-center"><?php echo getNameArticlemenu(7);?></h2>
 			<div class="row">
 				<?php
-					$i = 0;
-					$loc = array();
 					$db->table = "article";
 					$db->condition = "is_active = 1 AND article_menu_id = 7";
 					$db->order = "created_time DESC";

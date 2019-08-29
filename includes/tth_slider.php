@@ -10,9 +10,9 @@ $stringObj = new String();
                 <ul>
                     <?php
                         $db->table = "gallery";
-                        $db->condition = "is_active = 1 AND gallery_menu_id = 2";
+                        $db->condition = "is_active = 1 AND gallery_menu_id = 1";
                         $db->order = "created_time desc";
-                        $db->limit = "";
+                        $db->limit = "3";
                         $rowsl = $db->select();
                         foreach ($rowsl as $rowl){
                     ?>
@@ -32,14 +32,14 @@ $stringObj = new String();
                     <?php
                         $i = 0;
                         $db->table = "gallery";
-                        $db->condition = "is_active = 1 AND gallery_menu_id = 2";
+                        $db->condition = "is_active = 1 AND gallery_menu_id = 1";
                         $db->order = "created_time desc";
-                        $db->limit = "";
+                        $db->limit = "3";
                         $rowsl1 = $db->select();
                         foreach ($rowsl1 as $rowl1){
                             $i++;
                     ?>
-                        <a href="#" title=""><span><img src="<?php echo HOME_URL?>/uploads/gallery/<?= $rowl1['img'] ?>" alt=""/><?php echo $i;?></span></a>
+                        <a href="#" title=""><span><?php echo $i;?></span></a>
                     <?php } ?>
                 </div>
             </div>
