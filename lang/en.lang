@@ -74,6 +74,7 @@
 	$txtContact_titleForm   				= 'Inquiries - Feedback';
 	$txtContact_name						= 'Full name';
 	$txtContact_address	    				= 'Address';
+	$txtContact_comment	    				= 'Content comment';
 	$txtContact_email						= 'Email';
 	$txtContact_fone						= 'Tel';
 	$txtContact_content	    				= 'Request';
@@ -113,6 +114,7 @@ Your request has been sent successfully. We will respond within 24 hours.';
 
 	// nội dung
 	$gd 				                    = 'Send';
+	$submit 				                = 'Submit';
 	$kqtk 				                    = 'Search Results';
 	$dcem									= 'Email address is not valid.';
 	$hoten									= 'Full name';
