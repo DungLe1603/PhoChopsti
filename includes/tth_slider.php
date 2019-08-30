@@ -47,9 +47,10 @@ $stringObj = new String();
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4">
         <div class="welcome">
-            <p class="ft-contact">Contact<p>
-            <p class="ft-logo-tetx">Pho chopsti</p>
-            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame....</p>
+            <p class="slider-welcome">WELLCOME TO<p>
+            <p class="slider-logo-tetx">PHO CHOPSTI</p>
+            <p class="slider-content">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame....</p>
+            <a class="slider-bt" href="<?php echo HOME_URL_LANG;?>/about-us">View more</a>
         </div>
     </div>
 </div>
